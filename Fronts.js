@@ -19,11 +19,10 @@ class SLL {
     addFront(value) {
         let node1 = new Node(value);
         this.head = node1;
-        return this.head
+        return this
     }
 }
 
 let newList = new SLL()
 console.log(newList)
 console.log(newList.addFront(88))
-console.log(newList)
